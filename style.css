@@ -148,13 +148,15 @@ header > img {
 
 .menu li {
   display: inline;
+  padding: 0em;
 }
 
 .menu a {
   color: #fff; /* Colore del testo */
-  font-size: smaller;
+  font-size: medium;
   text-align: left; /* Testo allineato al centro */
   text-decoration: none;
+  padding: 1em;
 }
 
 .menu {
