@@ -1,0 +1,163 @@
+body {
+  background-color: #e9edee;
+  font-family: Arial, Helvetica, sans-serif;
+}
+header {
+  background-color: #222f3f;
+  padding: 1em;
+}
+main {
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+}
+
+header > img {
+  height: 60px;
+  width: 170px;
+}
+
+.menu > li {
+  padding: 1.5em;
+}
+
+.menu {
+  margin: 0em;
+}
+
+.gift_card {
+  background-color: #fa6300;
+}
+
+.gift_card > p {
+  color: white;
+  text-align: center;
+  padding: 0.7em;
+}
+
+.img_regali > .textGift {
+  background-image: url(/assets/bg-image.png);
+  background-size: 100%;
+  padding-top: 10vh;
+  text-align: center;
+  color: white;
+  width: 100%;
+  height: 10em;
+}
+/* .findGift > a,  {
+  color: #74b3bf;
+  margin: 2em;
+} */
+
+.findGift {
+  background-color: white;
+  height: 47vh;
+}
+
+.findGift > img {
+  margin-top: 1em;
+  margin-left: 2.3em;
+  display: block;
+  height: 370px;
+  width: 21%;
+  float: left;
+  margin-right: 1.6em;
+  align-items: center;
+  border-radius: 5%;
+  box-shadow: 10px 10px 5px #ebebeb;
+}
+
+.findGift > h2 {
+  display: contents;
+  margin: 2.3em;
+}
+
+.visore > img {
+  width: 100%;
+  height: 100%;
+}
+
+.descriptionVisore {
+  padding-bottom: 2em;
+  text-align: center;
+}
+
+.descriptionVisore > h2 {
+  padding: 2em;
+  text-align: center;
+  display: contents;
+}
+
+.descriptionVisore > a,
+.marshall > a,
+.findGift > a {
+  color: #2a8597;
+  padding-bottom: 1em;
+  text-decoration: none;
+  margin: 2em;
+  font-size: larger;
+  font-weight: bolder;
+}
+
+.marshall {
+  padding-bottom: 2em;
+  text-align: center;
+}
+
+.marshall > h2 {
+  text-align: center;
+  display: contents;
+}
+
+.marshall > img {
+  width: 100%;
+}
+
+.top {
+  background-color: #364759;
+  text-align: center;
+  padding: 2em;
+}
+.top > a {
+  color: white;
+  font-weight: bolder;
+}
+
+.logoFooter {
+  background-color: #222f3f;
+  text-align: center;
+}
+
+.logoFooter > img {
+  padding-top: 3em;
+  padding-bottom: 5em;
+  height: 70px;
+  width: 220px;
+}
+
+/* .logoFooter>p{
+    text-align: center;
+} */
+
+.menu ul {
+  width: 100%; /* Dimensioni della barra del menu */
+  padding: 0;
+  margin: 0;
+  display: block;
+  list-style-type: none; /* Stile della lista */
+}
+
+.menu li {
+  display: inline;
+}
+
+.menu a {
+  color: #fff; /* Colore del testo */
+  font-size: smaller;
+  text-align: left; /* Testo allineato al centro */
+  text-decoration: none;
+}
+
+.menu {
+  background-color: #364759;
+  padding-top: 0em;
+}
